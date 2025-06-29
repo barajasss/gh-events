@@ -6,6 +6,7 @@ function MainContent() {
   const [helpVisible, setHelpVisible] = useState(false);
 
   // comment
+  // comment
   function toggleHelp() {
     setHelpVisible((isVisible) => !isVisible);
   }
